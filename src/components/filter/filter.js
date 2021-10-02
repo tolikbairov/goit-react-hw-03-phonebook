@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import styles from "./filter.module.css";
 const Filter = ({ value, onChange }) => (
   <label className={styles.filter__label}>
@@ -8,3 +9,4 @@ const Filter = ({ value, onChange }) => (
 );
 
 export default Filter;
+Filter.propTypes = { value: PropTypes.string, onChange: PropTypes.func };
