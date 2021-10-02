@@ -1,0 +1,11 @@
+.ContactList__item {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+.text__name {
+  margin-right: 5px;
+}
+.ContactList__text {
+  margin-right: 5px;
+}
